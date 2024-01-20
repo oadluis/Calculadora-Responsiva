@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <section class="main">
+
+        <form action="" name="Calculator">
+            <input type="text" name="text1" class="display" disabled><br>
+
+            <input type="text" value="ac" name="text12" class="clear" onclick="location.reload()">
+            <input type="button" value="%" name="btnporcent" class="operator" onclick="displaynum(btnporcent.value)">
+            <input type="button" value="/" name="divbtn" class="operator" onclick="displaynum(divbtn.value)"><br>
+
+            <input type="button" value="7" name="btn7" class="nmero7" onclick="displaynum(btn7.value)">
+            <input type="button" value="8" name="btn8" class="nmero" onclick="displaynum(btn8.value)">
+            <input type="button" value="9" name="btn9" class="nmero" onclick="displaynum(btn9.value)">
+            <input type="button" value="*" name="btnmulti" class="operator" onclick="displaynum(btnmulti.value)"><br>
+
+            <input type="button" value="4" name="btn4" class="nmero4" onclick="displaynum(btn4.value)">
+            <input type="button" value="5" name="btn5" class="nmero" onclick="displaynum(btn5.value)">
+            <input type="button" value="6" name="btn6" class="nmero" onclick="displaynum(btn6.value)">
+            <input type="button" value="-" name="btnsub" class="operator" onclick="displaynum(btnsub.value)"><br>
+
+            <input type="button" value="1" name="btn1" class="nmero1" onclick="displaynum(btn1.value)">
+            <input type="button" value="2" name="btn2" class="nmero" onclick="displaynum(btn2.value)">
+            <input type="button" value="3" name="btn3" class="nmero" onclick="displaynum(btn3.value)">
+            <input type="button" value="+" name="btnplus" class="operator" onclick="displaynum(btnplus.value)"><br>
+
+            <input type="button" value="0" name="btn0" class="nmero0" onclick="displaynum(btn0.value)">
+            <input type="button" value="." name="btndot" class="operator" onclick="displaynum(btndot.value)">
+            <input type="button" value="=" name="btnresult" class="operator" onclick="text1.value=eval(text1.value)">
+
+        </form>
+
+    </section>
+    <script src="./JAVASCRIPT/scrip.js"></script>
+</body>
+
+</html>

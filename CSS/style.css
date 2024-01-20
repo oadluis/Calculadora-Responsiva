@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #efefefcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding: 20px;
+    width: 35%;
+    height: 70%;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 1px 10px 40px 10px #ddddddb9;
+}
+
+.display {
+    width: 90%;
+    height: 13%;
+    margin: 10px 0px 30px 15px;
+    border: none;
+    background-color: #ebebebb9;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.nmero,
+.nmero1,
+.nmero4,
+.nmero7,
+.nmero0,
+.operator,
+.clear {
+    font-size: 1.1rem;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nmero,
+.nmero1,
+.nmero4,
+.nmero7,
+.operator {
+    width: 21%;
+    height: 13%;
+    margin-bottom: 5px;
+}
+
+.clear,
+.nmero0 {
+    width: 43.3%;
+    height: 13%;
+}
+
+.clear,
+.nmero7,
+.nmero4,
+.nmero1,
+.nmero0 {
+    margin-left: 20px
+}
+
+.clear {
+    background-color: aquamarine;
+}
+
+.operator {
+    background-color: rgba(0, 124, 126, 0.509);
+}
+
+.nmero,
+.nmero7,
+.nmero4,
+.nmero1,
+.nmero0 {
+    background-color: rgba(213, 213, 213, 0.403);
+}
+
+@media screen and (max-width: 728px) {
+
+    form {
+        width: 50%
+    }
+}
+
+@media screen and (max-width: 530px) {
+
+    form {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    form {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 290px) {
+
+    form {
+        width: 80%;
+    }
+
+    .display {
+        width: 75%;
+        margin-left: 25px;
+    }
+
+    .nmero,
+    .nmero1,
+    .nmero4,
+    .nmero7,
+    .operator,
+    .clear,
+    .nmero0 {
+        font-size: 0.9rem;
+    }
+
+    .nmero,
+    .nmero1,
+    .nmero4,
+    .nmero7,
+    .operator {
+        width: 16%;
+        height: 13%;
+    }
+
+    .clear,
+    .nmero0 {
+        width: 34%;
+        height: 13%;
+    }
+
+    .clear,
+    .nmero0,
+    .nmero1,
+    .nmero4,
+    .nmero7 {
+        margin-left: 25px;
+    }
+}
