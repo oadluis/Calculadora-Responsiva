@@ -4,7 +4,7 @@ Calculadora Responsiva e 100% funcional, para você realizar os seus cálculos c
 
 ## 📦 Implantação
 
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+Acesse o link: (https://oadluis.github.io/Calculadora-Responsiva/)
 
 ## 🛠️ Construído com
 
