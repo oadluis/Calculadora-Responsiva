@@ -1,6 +1,6 @@
-# Título do projeto
+# Calculadora Responsiva
 
-Calculadora Responsiva e 100% funcional!
+Calculadora Responsiva e 100% funcional, para você realizar os seus cálculos com velocidade 💡!
 
 ## 📦 Implantação
 
