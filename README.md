@@ -1,4 +1,5 @@
-# Calculadora Responsiva
+# Responsive Calculator
+
 
 Calculadora Responsiva e 100% funcional, para você realizar os seus cálculos com velocidade 💡!
 
